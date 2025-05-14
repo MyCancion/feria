@@ -1,0 +1,152 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <style>
+    .nav {
+      display: flex;
+      gap: 10px;
+      margin: 20px;
+    }
+
+h2{
+        color:  #ff4c60;
+        margin-top: 40px;
+      
+      }
+
+    button {
+      padding: 10px 15px;
+      background: #3498db;
+      border: none;
+      color: white;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    button:hover {
+      background: #2980b9;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>Emprendimientos</h2>
+  <div class="nav">
+    <button onclick="window.location.href='pagina_princ.html'">Inicio</button>
+    <button onclick="window.location.href='informatica.html'">Informatica</button>
+    <button onclick="window.location.href='gastronomia.html'">Agropecuaria</button>
+    <button onclick="window.location.href='Hoteleria.html'">Hoteleria</button>
+
+  </div>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Tarjetas con espacio para escribir</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 40px;
+      background: linear-gradient(to right,#3b67f5, #059becac, rgb(113, 238, 247));
+    }
+
+    .input-container {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    .input-container textarea {
+      width: 80%;
+      height: 100px;
+      padding: 10px;
+      font-size: 16px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      resize: vertical;
+    }
+
+    .card-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      gap: 20px;
+    }
+
+    .card {
+      background: linear-gradient(to right,#3b67f5, #059becac, rgb(113, 238, 247));
+      border: 1px solid  #000000;
+      border-radius: 10px;
+      width: 300px;
+      padding: 20px;
+      box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.817);
+      text-align: center;
+    }
+
+    .card img {
+      width: 200px;
+      height: auto;
+      margin-bottom: 15px;
+    }
+h1{
+    text-align: center;
+    color: #ff4c60;;
+}
+    .card h3 {
+      color: #2c585e;
+      margin-bottom: 10px;
+    }
+
+    .card p {
+      font-size: 14px;
+      color: #555;
+      margin-bottom: 10px;
+    }
+
+
+  </style>
+</head>
+<body>
+
+  <h1>Agropecuaria</h1>
+
+  <div class="card-container">
+
+    <div class="card">
+      <img src="sazon.jpg" alt="Producto">
+      <h3>Sazón</h3>
+    </div>
+
+    <div class="card">
+      <img src="tomates cherry.jpg" alt="Producto">
+      <h3>Tomates cherry encurtidos</h3>
+      
+    </div>
+
+    <div class="card">
+      <img src="Tomates verdes.jpg" alt="Producto">
+      <h3>Tomates verdes encurtidos</h3>
+
+    </div>
+
+    <div class="card">
+      <img src="Aji.jpg" alt="Producto">
+      <h3>Aji</h3>
+     
+    </div>
+
+    <div class="card">
+      <img src="Girazol.jpg" alt="Producto">
+      <h3>Girasol</h3>
+      
+    </div>
+
+
+
+  </div>
+
+</body>
+</html>
