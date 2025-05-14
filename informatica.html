@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <style>
+    .nav {
+      display: flex;
+      gap: 10px;
+      margin: 20px;
+    }
+      h2{
+        color:  #ff4c60;
+        margin-top: 40px;
+      
+      }
+
+    
+    button {
+      padding: 10px 15px;
+      background: #3498db;
+      border: none;
+      color: white;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    button:hover {
+      background: #2980b9;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>Emprendimientos</h2>
+  <div class="nav">
+    <button onclick="window.location.href='pagina_princ.html'">Inicio</button>
+    <button onclick="window.location.href='Gastronomia.html'">Informatica</button>
+    <button onclick="window.location.href='agropecuaria.html'">Agropecuaria</button>
+    <button onclick="window.location.href='Hoteleria.html'">Hoteleria</button>
+
+  </div>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title> Productos y Servicios den Informatica</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background:linear-gradient(to right,#3b67f5, #059becac, rgb(113, 238, 247));
+      margin: 0;
+      padding: 20px;
+     
+    }
+
+    h1 {
+      color:  #ff4c60;
+      text-align: center;
+      margin-top: 40px;
+      
+    }
+
+    .contenedor {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    
+    }
+
+    .card {
+      background: white;
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      width: 220px;
+      padding: 15px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+
+    .card img {
+      max-width: 100%;
+      height: 120px;
+      object-fit: contain;
+      margin-bottom: 10px;
+    }
+
+    .precio {
+      color: green;
+      font-weight: bold;
+    }
+
+    .boton {
+      margin-top: 10px;
+      background: #007aff;
+      color: white;
+      border: none;
+      padding: 8px 12px;
+      border-radius: 20px;
+      cursor: pointer;
+    
+    }
+
+  .boton:hover {
+      background: #005fcc;
+      transform: scale(1.05);
+  }
+
+
+  </style>
+</head>
+<body>
+
+  <h1> Productos</h1>
+  <div class="contenedor">
+    <div class="card">
+      <img src="https://www.altasenal.com/wp-content/uploads/2022/09/14536.jpg">
+      <p>Enchufe Inteliente</p>
+      <p class="precio">$500.00 <br> 
+        Con intalaciocion y configuracion<br>
+        $800.00</p>
+      <button class="boton">+ Agregar</button>
+    </div>
+    <div class="card">
+      <img src="https://m.media-amazon.com/images/I/51RQOHm+4DL.jpg" alt="interuptor Inteliente">
+      <p>interuptor Inteliente</p>
+      <p class="precio">$1000.00 <br>
+        Con Instalación</p>
+      <button class="boton">+ Agregar</button>
+    </div>
+    <div class="card">
+      <img src="https://portatilshoprd.com/wp-content/uploads/2024/03/gsc_127761172_4963381_1.jpg" alt="Producto 3">
+      <p> Bocinas Alexa Echo pop</p>
+      <p class="precio">$2000.00<br>
+      Incluye configuracion</p>
+      <button class="boton">+ Agregar</button>
+    </div>
+    <div class="card">
+      <img src="https://www.compuworking.com.co/uploads/productos/big/sml_4131.jpg" alt="Teclado Bluetooth Recargable">
+      <p>Teclado Bluetooth Recargable</p>
+      <p class="precio">$700.00
+        <br>   '</p>
+      <button class="boton">+ Agregar</button>
+    </div>
+    <div class="card">
+      <img src="https://cdn.asi.do/ozn5t6q1iovxzfeoeu7f0cm3oip5" alt="Memoria USB De 64Gb">
+      <p>Memoria USB De 64Gb</p>
+      <p class="precio">$500.00</p>
+      <button class="boton">+ Agregar</button>
+    </div>
+    <div class="card">
+      <img src="https://tienequesermio.com/public/medium/catalog1472-img-681-palo-selfie-monopod-promocional-self--tienequesermio.U15.jpg" alt="Palos De Selfies">
+      <p>Palos De Selfies</p>
+      <p class="precio">$500.00</p>
+      <button class="boton">+ Agregar</button>
+    </div>
+  </div>
+
+  <h1> Servicios</h1>
+  <div class="contenedor">
+    <div class="card">
+      <img src="https://www.tecnologianueva.com.mx/wp-content/uploads/2024/02/Como-optimizar-mi-PC.jpg" alt="Servicio de Laptops">
+      <p>Servicio De Optimizacion De Laptops</p>
+      <p class="precio">$100</p>
+      <button class="boton">Solicitar</button>
+    </div>
+    <div class="card">
+      <img src="https://larepublica.cronosmedia.glr.pe/original/2024/11/07/672ce2f15bb6f54c3376e833.jpg" alt="Servicio Optimizacion">
+      <p>Servicio De Optimizacion De Telefono</p>
+      <p class="precio">$50</p>
+      <button class="boton">Solicitar</button>
+    </div>
+    <div class="card">
+      <img src="https://uchile.cl/dam/jcr:eecb753a-b1e9-47d3-a964-60b08f38ee0f/videojuegos-03-l.jpg" alt="CLUB De Videojuegos">
+      <p>CLUB De Videojuegos</p>
+      <p class="precio">$25<br>La partida</p>
+      <button class="boton">Solicitar</button>
+    </div>
+    <div class="card">
+      <img src="https://http2.mlstatic.com/D_NQ_NP_943963-MLU25729477001_072017-O.webp" alt="Serfies Inteligente">
+      <p>Serfies Inteligente Con Impresion</p>
+      <p class="precio">$50</p>
+      <button class="boton">Solicitar</button>
+    </div>
+  </div>
+
+</body>
+</html>
